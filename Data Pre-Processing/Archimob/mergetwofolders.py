@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-#Source: https://stackoverflow.com/questions/49122623/merge-two-folders-in-python
-
 import subprocess as sbp
 import os
 
@@ -15,3 +13,9 @@ for i in fol:
     sbp.Popen(p3,shell=True)
     print('one more file merged')
 print('all files merged - Done')
+
+
+#Sources: (adapted from)
+## Title: Merge two folders in python
+## URL: https://stackoverflow.com/questions/49122623/merge-two-folders-in-python
+## Last accessed: 05/07/2019

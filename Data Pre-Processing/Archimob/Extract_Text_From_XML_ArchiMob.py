@@ -1,9 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
+# File: Extract_Text_From_XML_ArchiMob.py for archimob data
 
 #This file helps retract the transcribed text of archimob audio from xml to txt
-#Swiss German Text
-#Source: https://www.datacamp.com/community/tutorials/python-xml-elementtree
 
 #Import XML Reader
 import xml.etree.ElementTree as ET
@@ -23,3 +20,9 @@ for entry in glob('./Text in XML/*.xml'):
     print(entry + 'Done')
 
 print('All Done!')
+
+
+#Sources: (adapted from)
+## Title: Python XML with ElementTree: Beginner's Guide
+## URL: https://www.datacamp.com/community/tutorials/python-xml-elementtree
+## Last accessed: 05/07/2019
